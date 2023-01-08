@@ -6,7 +6,6 @@ function createApp(){
 
         response.setHeader("Content-Type", 'text/html');
 
-        //const jsonResponseBody = JSON.stringify({message: "Welcome to the World Wide Web!" });
 
         response.end(`Welcome to the World Wide Web!`);
     });
